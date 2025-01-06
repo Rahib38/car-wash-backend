@@ -7,6 +7,6 @@ const register = async(payload:IUser)=>{
 }
 
 
-export const authService={
+export const AuthService={
     register
 }

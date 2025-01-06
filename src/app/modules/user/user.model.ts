@@ -18,14 +18,14 @@ const userSchema = new Schema({
     unique: true,
   },
   phone: {
-    type: Number,
+    type: String,
     require: true,
     unique: true,
   },
   role: {
     type: String,
     enum: ['user', 'admin'],
-    default: 'user',
+    // default: 'user',
   },
   address: {
     type: String,
